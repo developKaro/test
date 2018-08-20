@@ -1,10 +1,9 @@
 var answers =["a. Monthly","b. False","b. Raw vegetable sprouts","a. Negotiate and accept the item if possible","a. True"]
 var count = 0;
 var prevQuesNo = 0;
-qweqweqwe
+var grt ;
 $("td>.ms-RadioText>input").click(function(){
 debugger;
-var narayana ;
 var question = $(this).parent().parent().parent().parent().parent().parent().parent().parent().children("td:nth-child(1)").text().trim();
 var answer = $(this).parent().text().trim();
 var questionNo = question[0];
