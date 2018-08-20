@@ -4,6 +4,7 @@ var prevQuesNo = 0;
 qweqweqwe
 $("td>.ms-RadioText>input").click(function(){
 debugger;
+var narayana ;
 var question = $(this).parent().parent().parent().parent().parent().parent().parent().parent().children("td:nth-child(1)").text().trim();
 var answer = $(this).parent().text().trim();
 var questionNo = question[0];
